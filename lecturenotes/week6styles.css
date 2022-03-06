@@ -1,0 +1,12 @@
+body {
+    background-color:lightskyblue;
+}
+
+p {color:mediumorchid;}
+
+.boldred {
+    color:red;
+    font-weight:bold;
+}
+
+/* no html allowed here! */
