@@ -1,0 +1,25 @@
+body {font-family:Verdana, Geneva, Tahoma, sans-serif;background-color:#9bdb51;}
+h1, h2 {color: #4c0e57;}
+.evenrow{background-color:#ddb0eb;}
+h1{font-size: 3em;}
+h2{font-size: 1em}
+p {font-family:Verdana, Geneva, Tahoma, sans-serif;}
+p, ul, td, th {color: #ffffff;}
+a {color: #4f0366}
+p {color:#ffffff}
+nav {background-color: #ffffff;}
+nav {padding: 10px; margin-bottom: 30px;}
+nav a {color: #ddb0eb}
+nav a:hover {background-color: #4f0366;}
+
+
+.copy {float: left;}
+.quote {float: right;}
+
+.row1, .row2 {display: flex; padding: 10px; margin: 10px;}
+.row1 {background-color: #ddb0eb; border-radius: 1em;}
+.row2 {background-color: #ddb0eb; border-radius: 1em;}
+.addresscol {flex:1; order:1;}
+.emailcol {flex:1; order:2; margin: 45px;}
+.gmapcol {flex:3; order:2; margin: 40px;}
+.formcol {flex:2; order:1; padding: 5px; margin: 30px;}
