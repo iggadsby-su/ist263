@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+     h1 {font-family: 'Grape Nuts', cursive;}
+     .row1 { 
+                padding: 150px;
+                margin-top: 40px;
+                display: flex;
+                flex-wrap: wrap; /*flex-wrap goes on the row not the columns*/
+            }
+
+            .row1 div {
+                padding: 40px;
+                flex: 1; /* flex wrap doesn't work unless you size the columns */
+            }
+</style>
+<body>
+<h1>Bela Gadsby</h1>
+
+<div class="row1">
+    <div class="box1">
+        <p>1</p>
+    </div>
+    <div class="box2">
+        <p>2</p>
+    </div>
+    <div class="box3">
+        <p>3</p>
+    </div>
+    <div class="box4">
+        <p>4</p>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,59 @@
+body {font-family:Verdana, Geneva, Tahoma, sans-serif;background-color:#9bdb51;}
+h1, h2 {color: #4c0e57;}
+.evenrow{background-color:#ddb0eb;}
+h1{font-size: 3em;}
+h2{font-size: 1em}
+p {font-family:Verdana, Geneva, Tahoma, sans-serif;}
+p, ul, td, th {color: #ffffff;}
+a {color: #4f0366}
+p {color:#ffffff}
+nav {background-color: #ffffff;}
+nav {padding: 10px; margin-bottom: 30px;}
+nav a {color: #ddb0eb}
+nav a:hover {background-color: #4f0366;}
+
+
+.copy {float: left;}
+.quote {float: right;}
+
+.row1, .row2 {display: flex; padding: 10px; margin: 10px;}
+.row1 {background-color: #ddb0eb; border-radius: 1em;}
+.row2 {background-color: #ddb0eb; border-radius: 1em;}
+.addresscol {flex:1; order:1;}
+.emailcol {flex:1; order:2; margin: 45px;}
+.gmapcol {flex:3; order:2; margin: 40px;}
+.formcol {flex:2; order:1; padding: 5px; margin: 30px;}
+
+/*.header {display:flex;
+        justify-content: center;}
+
+.flexbox1 {display:flex; 
+        flex: 3; 
+        justify-content: space-between; 
+        margin-top: 50px;}
+
+.OtherSkills {background-color:#ddb0eb; 
+            border-radius: 1em;
+            margin: 2;
+            flex: 1;
+            padding: 10px;}
+
+.flexbox2 {display:flex;
+            margin: 15px;
+            padding: 15px;
+            justify-content: space-around;}*/
+
+.bannerbio {max-width: 100%;}
+
+.heading {text-align: center;}
+.secondheading {text-align: center;}
+
+.photoediting {float: right; width: 15px; text-align: center;}
+.creativeproblemsolving {width: 15px; text-align: center;}
+.writtencommunication {width: 15px; text-align: center;}
+.videoediting {width: 15px; text-align: center;}
+.excel {width: 15px; text-align: center;}
+
+.flex {display: flex; justify-content: space-around;}
+.flexbox2 {background-color:#ddb0eb; border-radius: 1em; flex: 1; padding: 20px; margin: 20px;}
+.small {display: flex; justify-content: space-between; flex:3; margin-top: 20px;}
