@@ -18,11 +18,11 @@ nav a:hover {background-color: #4f0366;}
 
 .row1, .row2 {display: flex; padding: 10px; margin: 10px;}
 .row1 {background-color: #ddb0eb; border-radius: 1em;}
-.row2 {background-color: #ddb0eb; border-radius: 1em;}
+.row2 {background-color: #ddb0eb; border-radius: 1em; flex-wrap: wrap;}
 .addresscol {flex:1; order:1;}
 .emailcol {flex:1; order:2; margin: 45px;}
-.gmapcol {flex:3; order:2; margin: 40px;}
-.formcol {flex:2; order:1; padding: 5px; margin: 30px;}
+.formcol {flex:3; order:1; margin: 40px;}
+.gmapcol {flex:2; order:2; padding: 5px; margin: 30px;}
 
 /*.header {display:flex;
         justify-content: center;}
