@@ -1,0 +1,70 @@
+/*NAVIGATION*/
+nav {background-color: #290066;}
+nav {padding: 10px; margin-bottom: 30px;}
+nav a {color: #ffffff}
+nav a:hover {background-color: #a366ff;}
+
+/*BODY*/
+body {font-family:'Fauna One', serif;background-color:#ffffff; font-size:1em}
+p {font-family: 'Fauna One', serif;}
+p {color:#ffffff}
+
+/*HEADINGS*/
+h1 {color:  #290066;}
+h2, h3, h4 {color:  #ffffff;}
+h1{font-family: 'Cinzel', serif; font-weight:bolder; text-align: center;}
+h2 {font-family: 'Cinzel';}
+h1 {font-size: 4em;}
+h2 {font-size: 3em}
+h3 {font-size: 2em}
+h4 {font-size: 1em;}
+
+/*PARENT CONTAINER FLEX*/
+.signs {display: flex;
+        flex-wrap: wrap;
+justify-content: center;}
+
+.signs2 {display: flex;
+        flex-wrap: wrap;
+justify-content: center;}
+
+.signs3 {display: flex;
+        flex-wrap: wrap;
+justify-content: center;}
+
+.signs4 {display: flex;
+        flex-wrap: wrap;
+justify-content: center;}
+
+.signs5 {display: flex;
+        flex-wrap: wrap;
+justify-content: center;}
+
+.signs6 {display: flex;
+        flex-wrap: wrap;
+justify-content: center;}
+
+.signs article {padding: 20px;}
+.signs2 article {padding: 20px;}
+.signs3 article {padding: 20px;}
+.signs4 article {padding: 20px;}
+.signs5 article {padding:20px;}
+.signs6 article {padding:20px;}
+
+/*CHILD ELEMENT FLEX*/
+.aries, .taurus, .gemini, .cancer, .leo, .virgo, .libra, .scorpio, .sagittarius, .capricorn, .aquarius, .pisces {margin: 10px;}
+.aries {flex: 1; order: 1; background-color: #290066; border-radius: 1em;}
+.taurus {flex: 1; order: 2; background-color: #290066; border-radius: 1em;}
+.gemini {flex: 1; order: 3; background-color: #290066; border-radius: 1em;}
+.cancer {flex: 1; order: 4; background-color: #290066; border-radius: 1em;}
+.leo {flex: 1; order: 5; background-color: #290066; border-radius: 1em;}
+.virgo {flex: 1; order: 6; background-color: #290066; border-radius: 1em;}
+.libra {flex: 1; order: 7; background-color: #290066; border-radius: 1em;}
+.scorpio {flex: 1; order: 8; background-color: #290066; border-radius: 1em;}
+.sagittarius {flex: 1; order: 9; background-color: #290066; border-radius: 1em;}
+.capricorn {flex: 1; order: 10; background-color: #290066; border-radius: 1em;}
+.aquarius {flex: 1; order: 11; background-color: #290066; border-radius: 1em;}
+.pisces {flex: 1; order: 12; background-color: #290066; border-radius: 1em;}
+
+
+
