@@ -19,30 +19,52 @@ h2 {font-size: 3em}
 h3 {font-size: 2em}
 h4 {font-size: 1em;}
 
+/*HEADER FLEX*/
+.header{display:flex;
+        flex-wrap: wrap;
+        justify-content:space-evenly;}
+.header{background-image:url(../project6/project_images/headerimg.jpg); 
+        border-radius: 1em; 
+        margin: 10px;
+        width: 1320px; 
+        height: 300px;}
+
+/*FLEX BUTTONS*/
+.button1{display:flex; 
+        flex-wrap:wrap; 
+        padding: 30px; font-size:1.5em; text-decoration:none; color:white;}
+.button2{display:flex; 
+        flex-wrap:wrap; 
+        padding: 30px; font-size:1.5em; text-decoration:none; color:white;}
+
+.button1 a:hover {color:#a366ff;}
+.button2 a:hover {color:#a366ff;}
+
+
 /*PARENT CONTAINER FLEX*/
 .signs {display: flex;
         flex-wrap: wrap;
-justify-content: center;}
+        text-align: center;}
 
 .signs2 {display: flex;
         flex-wrap: wrap;
-justify-content: center;}
+        text-align:center;}
 
 .signs3 {display: flex;
         flex-wrap: wrap;
-justify-content: center;}
+        text-align:center;}
 
 .signs4 {display: flex;
         flex-wrap: wrap;
-justify-content: center;}
+        text-align:center;}
 
 .signs5 {display: flex;
         flex-wrap: wrap;
-justify-content: center;}
+        text-align:center;}
 
 .signs6 {display: flex;
         flex-wrap: wrap;
-justify-content: center;}
+        text-align:center;}
 
 .signs article {padding: 20px;}
 .signs2 article {padding: 20px;}
@@ -65,6 +87,19 @@ justify-content: center;}
 .capricorn {flex: 1; order: 10; background-color: #290066; border-radius: 1em;}
 .aquarius {flex: 1; order: 11; background-color: #290066; border-radius: 1em;}
 .pisces {flex: 1; order: 12; background-color: #290066; border-radius: 1em;}
+
+/*FOOTER*/
+.copy {float: left;}
+.quote {float: right;}
+
+@media only screen and (max-width: 700px) {
+        nav a {
+            display: block;
+            width: 100%;
+            padding: 8px;}
+        span {display: none;}
+    }
+
 
 
 
