@@ -55,8 +55,7 @@ animation: flyin 1.5s linear;
         border-radius: 1em; 
         margin: 10px;
         max-width: 100%; 
-        padding: 30px;
-        /*height: 300px;*/}
+        padding: 30px;}
 
 /*FLEX BUTTONS*/
 .button1{display:flex; 
@@ -299,19 +298,6 @@ animation: flyin 1.5s linear;
                 text-align: center;
                 width: 100%;}
         
-        /*.fire {display: flex;
-                flex-wrap: wrap;
-                width:auto}
-
-        .air {display: flex;
-                flex-wrap: wrap;
-                width:auto}*/
-        
-        /*.elementsheader {display: flex;
-                flex-wrap: wrap;
-                text-align: center;
-                width: 100%;}*/
-        
         .houseimage1 {display: flex;
                 flex-wrap: wrap;
                 width:auto}
@@ -335,7 +321,3 @@ animation: flyin 1.5s linear;
         
      
 }
-
-
-
-
