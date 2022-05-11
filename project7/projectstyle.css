@@ -51,7 +51,7 @@ animation: flyin 1.5s linear;
 .header{display:flex;
         flex-wrap: wrap;
         justify-content:space-evenly;}
-.header{background-image:url(../project6/project_images/headerimg.jpg); 
+.header{background-image:url(../project7/project_images/headerimg.jpg); 
         border-radius: 1em; 
         margin: 10px;
         max-width: 100%; 
@@ -193,7 +193,7 @@ animation: flyin 1.5s linear;
         flex-wrap:wrap;
         max-width: 100%;
         padding: 10px;
-        background-image:url(../project6/project_images/headerimg.jpg); 
+        background-image:url(../project7/project_images/headerimg.jpg); 
         border-radius: 1em; 
         margin: 10px;}
 
@@ -211,7 +211,7 @@ animation: flyin 1.5s linear;
         flex-wrap:wrap;
         max-width: 100%;
         padding: 10px;
-        background-image:url(../project6/project_images/headerimg.jpg); 
+        background-image:url(../project7/project_images/headerimg.jpg); 
         border-radius: 1em; 
         margin: 10px;}
 
