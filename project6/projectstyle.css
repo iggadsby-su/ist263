@@ -99,6 +99,77 @@ h4 {font-size: 1em;}
 .copy {float: left;}
 .quote {float: right;}
 
+/*PLANETS*/
+.planetcenter {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 55%
+}
+
+.allplanets {display: flex;
+        flex-wrap: wrap;
+        text-align:left;
+        max-width: 100%;
+        margin: 10px;
+        padding: 20px;
+        background-color: #290066; 
+        border-radius: 1em;}
+
+.planetp {display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        max-width: 100%;
+        margin: 10px;
+        padding: 20px;
+        background-color: #290066; 
+        border-radius: 1em;}
+
+.planetsheader {display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        max-width: 100%;
+        margin: 10px;
+        padding: 10px;
+        background-color: #290066; 
+        border-radius: 1em;
+}
+
+/*ELEMENTS & HOUSES*/
+.elementsetc {display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        max-width: 100%;
+        margin: 10px;
+        padding: 10px;
+        background-color: #290066; 
+        border-radius: 1em}
+
+.fire {flex: 1; order: 1; background-color: #290066; border-radius: 1em; margin: 10px; padding: 20px;}
+.air {flex: 1; order: 2; background-color: #290066; border-radius: 1em; margin: 10px; padding: 20px;}
+.water {flex: 1; order: 3; background-color: #290066; border-radius: 1em; margin: 10px; padding: 20px;}
+.earth {flex: 1; order: 4; background-color: #290066; border-radius: 1em; margin: 10px; padding: 20px;}
+
+.fireair {display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        max-width: 100%;
+        padding: 10px;}
+
+.waterearth {display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        max-width: 100%;
+        padding: 10px;}
+
+.elementsheader {display:flex;
+        flex-wrap: wrap;
+        text-align: center;
+        max-width: 100%;
+        padding: 10px;
+        background-color: #290066; 
+        border-radius: 1em; 
+        margin: 10px;}
 
 /*RESPONSIVE DESIGN*/
 @media only screen and (max-width: 700px) {
@@ -121,6 +192,35 @@ h4 {font-size: 1em;}
         img {width:100%; height: auto;}
 
         .allsigns {display: flex;
+                flex-wrap: wrap;
+                text-align: center;
+                width: 100%;}
+
+        .fire {display: flex;
+                flex-wrap: wrap;
+                text-align: center;
+                width: 100%;}
+        .air {display: flex;
+                flex-wrap: wrap;
+                text-align: center;
+                width: 100%;}
+
+        .water {display: flex;
+                flex-wrap: wrap;
+                text-align: center;
+                width: 100%;}
+
+        .earth {display: flex;
+                flex-wrap: wrap;
+                text-align: center;
+                width: 100%;}
+
+        .fireair {display: flex;
+                flex-wrap: wrap;
+                text-align: center;
+                width: 100%;}
+        
+        .waterearth {display: flex;
                 flex-wrap: wrap;
                 text-align: center;
                 width: 100%;}
